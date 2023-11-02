@@ -27,7 +27,7 @@ Sistema desenvolvido com objetivo de praticar front end, utilizando integração
 * Funcionalidade 2: Buscar clima em determina cidade do mundo. 
 * Funcionalidade 2: Mostrar informações atuais do clima para o usuario. 
 <br/>
-<img width="50%" heigth="50%" src="Animação.gif">
+<img width="100%" heigth="100%" src="Animação.gif">
 
 
 <br/>
