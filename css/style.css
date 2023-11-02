@@ -1,0 +1,118 @@
+*{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#containerTempo{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: rgba(213, 168, 250, 0.055);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.637);
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio p{
+    padding: .5rem;
+    margin: 0;
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+.seg p{
+    font-size: 2rem;
+}
+
+.inputSearch, #btn-search{
+    background-color: rgba(10, 10, 10, 0.329);
+    border: none;
+    padding: .5rem;
+    margin: .2rem;
+    align-items: center;
+}
+
+.inputSearch{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(245, 197, 234, 0.774);
+    width: 70%;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.inputSearch::placeholder{
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.inputSearch:focus-visible{
+    outline: none;
+}
+
+#btn-search{
+    border-radius: 10px;
+    background-color: rgba(245, 197, 234, 0.774);
+    cursor: pointer;
+}
+
+#btn-search:hover{
+    background-color: rgba(252, 101, 217, 0.932);;
+}
+
+.text h1{
+    font-size: 1.5rem;
+    margin: 2rem;
+    margin-left: 1rem;
+}
+
+#description{
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+.text p{
+    color: rgba(255, 255, 255, 0.603);
+    margin-left: 1rem;
+}
+
+.tempo{
+    display: flex;
+    float: right;
+    flex-direction: column;
+    margin-top: -1rem;
+    margin-right: 2rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone{
+    width: 8vh;
+}
+
+
+@media screen and (max-width:400){
+    .container{
+        width: 100%;
+        height: auto;
+    }
+}

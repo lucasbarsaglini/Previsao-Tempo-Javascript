@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Barsaglini">
+    <meta name="description" content="pesquisar previsão do tempo por cidade">
+    <meta name="title" content="Previsão do tempo">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../previsaoTempo/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <section id="containerTempo">
+            <article class="relogio">
+                <p id="horas">00</p>
+                <p>:</p>
+                <p id="minutos">00</p>
+                <p>:</p>
+            <article class="seg">    
+                <p id="segundos">00</p>
+            </article>
+            </article> 
+            <form class="search">
+                <input class="inputSearch" placeholder="Digite o nome da cidade" required>
+                <button id="btn-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <section class="text">
+                <h1 id="cidade">Tempo agora em ...</h1>
+                <article class="tempo">
+                    <img src="https://openweathermap.org/img/wn/04n.png" class="icone">
+                    <p id="description">...</p>
+                </article>
+                <p id="temperatura">Temperatura: ºC</p>
+                <p id="umidade">Umidade: %</p>
+            </section>
+        </section>
+    </main>
+    <script src="../previsaoTempo/js/script.js"></script>
+</body>
+</html>
