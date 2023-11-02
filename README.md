@@ -27,7 +27,7 @@ Sistema desenvolvido com objetivo de praticar front end, utilizando integração
 * Funcionalidade 2: Buscar clima em determina cidade do mundo. 
 * Funcionalidade 2: Mostrar informações atuais do clima para o usuario. 
 <br/>
-<img width="50%" heigth="50%" src="![Animação](https://github.com/lucasbarsaglini/previsao-tempo/assets/100448147/62029a8b-2fbd-42e5-b9d6-a6d81398f397)">
+<img width="50%" heigth="50%" src="previsaTempo/Animação.gif">
 
 
 <br/>
