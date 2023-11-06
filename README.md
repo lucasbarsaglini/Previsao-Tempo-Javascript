@@ -18,13 +18,14 @@ Previsão do tempo com javascript, Open Weather Api e design responsivo.
 # Descrição do projeto
 
 Sistema desenvolvido com objetivo de praticar front end, utilizando integração com Open Weather Api, Javascript e responsividade.
+Mostrando na tela o clima atual de uma determinada cidade buscada pelo usuário e tambem o horario como uma interatividade. 
 <br/><br/>
 
 
 # Funcionalidades e Demonstração da Aplicação
 
 * Funcionalidade 1: Mostrar horário na tela do usuário.
-* Funcionalidade 2: Buscar clima em determina cidade do mundo. 
+* Funcionalidade 2: Buscar clima em determinada cidade do mundo. 
 * Funcionalidade 2: Mostrar informações atuais do clima para o usuario. 
 <br/>
 <img width="100%" heigth="100%" src="Animação.gif">
