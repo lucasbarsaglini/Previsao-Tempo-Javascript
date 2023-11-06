@@ -1,4 +1,4 @@
-# previsao-tempo
+# previsao-tempo-Js
 Previsão do tempo com javascript, Open Weather Api e design responsivo.
 
 # Previsão do tempo com Javascript
