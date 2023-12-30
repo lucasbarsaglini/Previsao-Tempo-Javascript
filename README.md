@@ -1,6 +1,3 @@
-# previsao-tempo-Js
-Previsão do tempo com javascript, Open Weather Api e design responsivo.
-
 # Previsão do tempo com Javascript
 
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
